@@ -1,0 +1,29 @@
+body{
+    padding: 1%;
+}
+
+.navbar{
+    padding-left: 5%;
+}
+#homepage{
+    margin-top: 20px;
+}
+#homepage .hpg-content{
+    margin-top: 150px;
+    padding-left: 5%;
+}
+
+#homepage h1{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#homepage p{
+    font-family: 'Satoshi', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+#homepage img{
+    padding-right: 5%;
+}

@@ -1,0 +1,376 @@
+/* font-family: 'Alata', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+ */
+
+ 
+
+/* body
+{
+    background-color:#edf3ea;
+    z-index: -1;
+} */
+#white-border{
+    margin: 0   ;
+    border-radius: 20px;
+    padding: 1%;
+}
+/* Navbar ========================================== */
+
+.navbar-brand{
+    font-family: 'Alata', sans-serif;
+}
+.navbar{
+    font-family: 'Satoshi', sans-serif;
+    padding: 2% 5%;
+    font-weight: 500;
+    background-color:#edf3ea;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.nav-item{
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar button{
+   border: 2px solid black;
+    color: black;
+}
+.navbar button:hover{
+    background-color: #f3911f;
+    color: black;
+}
+.dropdown-toggle::after {
+    display: none;
+  }
+
+/* Homepage ========================================= */
+
+#homepage{
+    width: 100%;
+    height: 900px;
+    font-family: 'Satoshi', sans-serif;
+    background-color:#edf3ea;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+#homepage h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+#homepage .btn1{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    background-color: rgb(207, 205, 205);
+    transition: transform 0.2s; 
+
+}
+#homepage .btn2{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: #f3911f;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 500;
+    transition: transform 0.2s; 
+}
+#homepage .btn1:hover{
+    transform: translateY(-2px);
+}
+#homepage .btn2:hover{
+    transform: translateY(-2px);
+}
+.line{
+    width: 100%;
+    height: .25px;
+    background-color: grey;
+    position: relative;
+    top: 60%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+#homepage .logos{
+    width: 100%;
+    position: relative;
+    top: 65%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.clip-image{
+    border-radius: 20px;
+    width: 100%;
+    scale: .90;
+    position: relative;
+    top: 100%;
+    z-index: 1;   
+    
+}
+
+/* Solutions ====================== */
+
+#solutions{
+    
+    margin: 520px 5%;
+    margin-bottom: 80px;
+   
+}
+#solutions .btn1{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    background-color: rgb(207, 205, 205);
+    transition: transform 0.2s; 
+
+}
+#solutions .btn2{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #f3911f;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    transition: transform 0.2s; 
+}
+#solutions .btn1:hover{
+    transform: translateY(-2px);
+}
+#solutions .btn2:hover{
+    transform: translateY(-2px);
+}
+#solutions h2{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
+
+#solutions p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+
+/* Why MGET ====================================*/
+
+#why-mget{
+    margin: 2% 5%;
+}
+#why-mget h2{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
+#why-mget a{
+    color: black;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#why-mget img{
+    border-radius: 20px;
+}
+
+#why-mget .card{
+    
+    padding: 10px 0;
+    background-color: #edf3ea;
+    border-radius: 20px;
+    font-size: 36px;
+    opacity: 50%;
+    font-weight: 500;
+    font-family: 'Satoshi', sans-serif;
+}
+#why-mget .c-middle{
+    margin: 50px 0;
+}
+
+
+#blogs{
+    margin: 8% 5%;
+}
+
+#blogs h2{
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
+#blogs .line{
+    align-self: center;
+    margin-bottom: 50px;
+}
+#blogs .container1{
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    /* flex-wrap: nowrap; */
+}
+.container1 .blog{
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    background-color: #edf3ea;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+#blogs img{
+    padding: 50px;
+}
+#blogs h3{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Satoshi', sans-serif;
+}
+#blogs p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 20px;
+}
+
+#blogs .btn1{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-right: 8px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    background-color: rgb(207, 205, 205);
+    transition: transform 0.2s; 
+
+}
+#blogs .btn2{
+    height: 50px;
+    width: 150px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #f3911f;
+    border: none;
+    font-family: 'Satoshi', sans-serif;
+    transition: transform 0.2s; 
+}
+#blogs .btn1:hover{
+    transform: translateY(-2px);
+}
+#blogs .btn2:hover{
+    transform: translateY(-2px);
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #edf3ea;
+    border: 12px solid white;
+    font-family: 'Satoshi', sans-serif;
+    border-radius: 20px;
+    border-bottom: 0;
+    padding: 30px;
+}
+footer h4{
+    margin-top: 20px;
+    line-height: 35px;
+}
+footer .f-content{
+    margin: 8% 12% ;
+}
+footer .f-content2{
+    margin-top: -15%;
+    padding-left: 50%;
+}
+footer .f-content3{
+    margin-top: -8%;
+    padding-left: 70%;
+}
+
+footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: -150px;
+}
+
+footer .sign{
+    margin-top: 210px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+    #homepage img{
+        visibility: hidden;
+    }
+    #homepage h1{
+        margin-top: 0px;
+        font-size: 50px;
+        text-align: left
+    }
+    
+
+    #homepage .btn1{
+       scale: 0.94; 
+       margin-bottom: 20px;  
+       margin-left: 10px;
+    }
+    #homepage .h-button{
+        text-align: center;
+    }
+    #homepage .btn2{
+        scale: 0.94;
+    }
+    .clip-image{
+        border-radius: 20px;
+        width: 100%;
+        scale: 1;
+        position: absolute;
+        top: 100%;
+        z-index: 1;   
+        
+    }
+
+}
